@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternalComplexTask.API", "InternalComplexTask.API.csproj", "{CBD1446D-F232-4A78-A227-0F9E54493D13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{415C928D-40AD-4D80-AAD1-12FF8F6162A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{9616DAB1-4D64-40DA-9244-5A53B1EA067B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternalComplexTask.Data.Contracts", "..\InternalComplexTask.Data.Contracts\InternalComplexTask.Data.Contracts.csproj", "{E59E0902-90B5-4045-8F0C-6766F81E925F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternalComplexTask.Data", "..\InternalComplexTask.Data\InternalComplexTask.Data.csproj", "{A7DC1165-23F5-439A-A4FF-2A98E5C4342A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalComplexTask.Business.Contracts", "..\InternalComplexTask.Business.Contracts\InternalComplexTask.Business.Contracts.csproj", "{D30D68C3-9CE5-40FC-951B-6CB420DCD6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalComplexTask.Business", "..\InternalComplexTask.Business\InternalComplexTask.Business.csproj", "{06A28EBC-E14D-45D7-8417-23FDC9D6BD9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD1446D-F232-4A78-A227-0F9E54493D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD1446D-F232-4A78-A227-0F9E54493D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD1446D-F232-4A78-A227-0F9E54493D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD1446D-F232-4A78-A227-0F9E54493D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59E0902-90B5-4045-8F0C-6766F81E925F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59E0902-90B5-4045-8F0C-6766F81E925F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59E0902-90B5-4045-8F0C-6766F81E925F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59E0902-90B5-4045-8F0C-6766F81E925F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DC1165-23F5-439A-A4FF-2A98E5C4342A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DC1165-23F5-439A-A4FF-2A98E5C4342A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DC1165-23F5-439A-A4FF-2A98E5C4342A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DC1165-23F5-439A-A4FF-2A98E5C4342A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D30D68C3-9CE5-40FC-951B-6CB420DCD6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30D68C3-9CE5-40FC-951B-6CB420DCD6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30D68C3-9CE5-40FC-951B-6CB420DCD6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30D68C3-9CE5-40FC-951B-6CB420DCD6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A28EBC-E14D-45D7-8417-23FDC9D6BD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A28EBC-E14D-45D7-8417-23FDC9D6BD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A28EBC-E14D-45D7-8417-23FDC9D6BD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A28EBC-E14D-45D7-8417-23FDC9D6BD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E59E0902-90B5-4045-8F0C-6766F81E925F} = {415C928D-40AD-4D80-AAD1-12FF8F6162A1}
+		{A7DC1165-23F5-439A-A4FF-2A98E5C4342A} = {415C928D-40AD-4D80-AAD1-12FF8F6162A1}
+		{D30D68C3-9CE5-40FC-951B-6CB420DCD6CA} = {9616DAB1-4D64-40DA-9244-5A53B1EA067B}
+		{06A28EBC-E14D-45D7-8417-23FDC9D6BD9F} = {9616DAB1-4D64-40DA-9244-5A53B1EA067B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABB687C1-B8D6-4949-97DC-B7C9EA9673F4}
+	EndGlobalSection
+EndGlobal
