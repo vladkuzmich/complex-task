@@ -14,7 +14,7 @@
 - Удаление сотрудника из проекта
 - Предоставление списка всех сотрудников запрашиваемого проекта
  
-Технические ограничения:
+## Технические ограничения:
 - API реализовать с использованием технологии ASP.NET Core1 WebApi (https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-3.1)
 - Предоставление списка проектов и списка сотрудников обеспечить постранично
 - Использовать IoC контейнер Autofac (https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html#asp-net-core-3-0-and-generic-hosting)
