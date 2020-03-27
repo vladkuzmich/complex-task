@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Autofac;
 using FluentValidation.AspNetCore;
+using InternalComplexTask.API.Extensions;
 using InternalComplexTask.API.Infrastructure.Middleware;
 using InternalComplexTask.API.Infrastructure.Modules;
 using InternalComplexTask.API.Models;
@@ -77,6 +78,8 @@ namespace InternalComplexTask.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.ApplyMigrations<ApplicationContext>();
 
             app.UseMiddleware<ExceptionMiddleware>();
 
